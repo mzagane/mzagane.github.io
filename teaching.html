@@ -16,7 +16,7 @@ background-color: #cccccc;*/
 
 </style>
 </head>
-<body class="">
+<body >
 
 <!-- Navbar ----------------------------------------------------------------------------------------------->
 <div class="w3-top">
@@ -71,65 +71,24 @@ background-color: #cccccc;*/
 <!-- Page content -------------------------------------------------------------------------------------------------->
 <div class="w3-content w3-animate-opacity" style="max-width:2000px;margin-top:46px">
 
-  <!-- Automatic Slideshow Images -->
-  
-  <!-- Slide1 -->
-  <div class="mySlides w3-display-container w3-center ">
-    <img src="images/slides/zm1.jpg" style="width:100%;min-height:200px;max-height:600px;" class="w3-opacity-max">
-    <div class="w3-display-topmiddle w3-container w3-text-white w3-padding-8">
-		<h1 class="w3-jumbo w3-animate-right ">Welcome to my Website!</h1>
-		<hr class="w3-border-grey" style="margin:auto;width:40%">
-		<p class="w3-large "></p>
+	<br>
+	<div class="w3-container w3-content w3-justify  w3-card  w3-animate-right w3-border w3-round-large w3-light-gray" style="max-width:1200px" id="contact">
 		
-    </div>
-  </div>
-  <!-- End Slide1 -->
-  
-  <!-- Slide2 -->
-  <div class="mySlides w3-display-container w3-center">
-    <img src="images/slides/zm1.jpg" style="width:100%;min-height:200px;max-height:600px;" class="w3-opacity-max">
-    <div class="w3-display-topmiddle w3-container w3-text-white w3-padding-8">
-		<h1 class="w3-xxxlarge w3-animate-right ">You can know here about my personal and professional life..</h1>
-		<hr class="w3-border-grey" style="margin:auto;width:40%">
-		<p class="w3-large "></p>
-		
-    </div>
-  </div>
-  <!-- End Slide2 -->
-  
- <!-- Slide3 -->
- <div class="mySlides w3-display-container w3-center">
-    <img src="images/slides/zm1.jpg" style="width:100%;min-height:200px;max-height:600px;" class="w3-opacity-max">
-    <div class="w3-display-topmiddle w3-container w3-text-white w3-padding-8">
-		<h1 class="w3-xxxlarge w3-animate-right ">Just use the top menu..</h1>
-		<hr class="w3-border-grey" style="margin:auto;width:40%">
-		<p class="w3-large "></p>
-		
-    </div>
-  </div>
-<!-- End Slide3 -->  
+		<h2 class="w3-wide w3-center">TEACHING</h2>
+		<p>Coming Soon ! :</p>
+	</div>
 
-<!-- Slide4 -->
- <div class="mySlides w3-display-container w3-center ">
-    <img src="images/slides/zm1.jpg" style="width:100%;min-height:200px;max-height:600px;" class="w3-opacity-max">
-    <div class="w3-display-topmiddle w3-container w3-text-white w3-padding-8">
-		<h1 class="w3-xxxlarge w3-animate-right ">Thanks and have a nice visit..</h1>
-		<hr class="w3-border-grey" style="margin:auto;width:40%">
-		<p class="w3-large "></p>
-		
-    </div>
-  </div>
-<!-- End Slide4 -->  
-
-<!-- End Page Content -->
+	<br>
+	<br>
 </div>
+<!-- End Page Content -->
+
 
 <!-- Image of location/map 
 <img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
 -->
 <!-- Footer -->
-<footer class="w3-container w3-padding-64 w3-center w3-blue-gray w3-xlarge">
-
+<footer class="w3-container w3-padding-64 w3-center w3-light-gray w3-large">
 
 <a href="https://www.facebook.com/" target="_blank">
     <i class="fa fa-facebook-official w3-hover-opacity"></i>
@@ -140,23 +99,7 @@ background-color: #cccccc;*/
   </a>
   <p class="w3-small">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
 </footer>
-
 <script>
-// Automatic Slideshow - change image every 4 seconds
-var myIndex = 0;
-carousel();
-
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  myIndex++;
-  if (myIndex > x.length) {myIndex = 1}    
-  x[myIndex-1].style.display = "block";  
-  setTimeout(carousel, 4000);    
-}
 
 // Used to toggle the menu on small screens when clicking on the menu button
 function myFunction() {

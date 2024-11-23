@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Website of Mohammed ZAGANE</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+font-family: "Lato", sans-serif;
+/*background-image: url("images/background.jpg");
+background-color: #cccccc;*/
+}
+
+</style>
+</head>
+<body class="w3-light-gray">
+
+<!-- Navbar ----------------------------------------------------------------------------------------------->
+<div class="w3-top">
+  <div class="w3-bar w3-blue-gray w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    	
+	<div class="w3-dropdown-hover w3-hide-small">
+		<button class="w3-padding-large w3-button" title="More">Professional <i class="fa fa-caret-down"></i></button>
+		<!--<a href="#committees" class="w3-bar-item w3-button w3-padding-large w3-hide-small">COMMITTEES</a>-->
+		<div class="w3-dropdown-content w3-bar-block w3-card-4">
+			<a href="teaching.html" class="w3-bar-item w3-button">Teaching</a>
+			<a href="research.html" class="w3-bar-item w3-button">Research</a>
+			<a href="research.html#pub" class="w3-bar-item w3-button">Publications</a>
+			<a href="cv.html" class="w3-bar-item w3-button">CV</a>
+			
+		</div>
+	</div>
+	
+	<div class="w3-dropdown-hover w3-hide-small">
+		<button class="w3-padding-large w3-button" title="More">Personal <i class="fa fa-caret-down"></i></button>
+		<!--<a href="#committees" class="w3-bar-item w3-button w3-padding-large w3-hide-small">COMMITTEES</a>-->
+		<div class="w3-dropdown-content w3-bar-block w3-card-4">
+			<a href="album.html" class="w3-bar-item w3-button">Album</a>			
+		</div>
+	</div>
+	
+	<div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+		<a href="soft_dev.html" class="w3-bar-item w3-button">Software Project</a>
+		<a href="contact.html" class="w3-bar-item w3-button">Contact me</a>
+		<a href="contact.html#sn" class="w3-bar-item w3-button">Find me on social network</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END Navbar ----------------------------------------------------------------------------------------------->
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="teaching.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Teaching</a>
+  <a href="research.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Research</a>
+  <a href="cv.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CV</a>
+  <a href="album.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Album</a>
+  <a href="contact.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Contact me</a>
+  
+</div>
+
+<!-- END Navbar on small screens ----------------------------------------------------------------------------------->
+
+
+
+<!-- Page content -------------------------------------------------------------------------------------------------->
+<div class="w3-content " style="max-width:2000px;margin-top:46px">
+
+	<br>
+	<div class="w3-container w3-content w3-justify  w3-card  w3-animate-right w3-border w3-round-large w3-light-gray" style="max-width:1200px" id="contact">
+		
+		<h2 class="w3-wide w3-center">RESEARCH</h2>
+		<p>In this page, you find details about my research works conducted during my doctoral studies, Post-Doctoral Research (HDR preparation) and current  work :</p>
+		
+		<!-- Doctoral studies ------------------------------------->
+		<div class="w3-container w3-content w3-padding-16 mybackground" style="max-width:800px">
+			
+			<h3 class="w3-wide w3-center">Doctoral studies</h3>
+			<p class="">My doctoral dissertation was titled 'A Contribution to Software Vulnerability Prediction: A Code Metrics-Based Approach.' Within the scope of this thesis, I proposed approaches that leverage software metrics and ML/DL techniques for automatic prediction of software vulnerabilities. Automatic vulnerability prediction can significantly assist developers and minimize the resources allocated to addressing software security issues. These costs can be further reduced by accurately pinpointing the exact locations of vulnerabilities (vulnerable lines of code).</p>
+			<p class="">
+			A key strength of the proposed approaches lies in their ability to utilize code metrics to quantify code slices that suggest the presence of vulnerabilities at a fine-grained level (a few lines of code). The work conducted in my thesis has resulted in the following publications:
+			</p>
+   
+			<ol class="w3-ul w3-border w3-card-4 w3-justify w3-white">
+				<li> Paper 1 :<ul>
+					<li> <strong>Title :</strong> Evaluating and Comparing Size, Complexity and Coupling Metrics as Web Applications Vulnerabilities Predictors</li>
+					<li> <strong>Journal :</strong> International Journal of Information Technology and Computer Science(IJITCS)</li>
+					<li> <strong>Authors :</strong> <strong>Mohammed Zagane </strong>, Mustapha Kamel Abdi</li>
+					<li> <strong>URL :</strong> <a href="https://www.mecs-press.org/ijitcs/ijitcs-v11-n7/IJITCS-V11-N7-5.pdf" target="_blank">https://www.mecs-press.org/ijitcs/ijitcs-v11-n7/IJITCS-V11-N7-5.pdf </a> </li>
+					<li> <strong>DOI :</strong>  10.5815/ijitcs.2019.07.05 </li>
+					<br>
+					<div class="w3-center w3-hide-small w3-border"><img src="images/papers_figs/paper1.jpg" style="max-width:800px; max-height:250px;" > </img></div>
+				</ul></li>
+				<li> Paper 2 :<ul>
+					<li> <strong>Title :</strong>  Deep Learning for Software Vulnerabilities Detection Using Code Metrics </li>
+					<li> <strong>Journal :</strong> IEEE Access</li>
+					<li> <strong>Authors :</strong> <strong>Mohammed Zagane </strong>, Mustapha Kamel Abdi and Mamdouh Alenezi</li>
+					<li> <strong>URL :</strong> <a href="https://ieeexplore.ieee.org/iel7/6287639/8948470/09069943.pdf" target="_blank">https://ieeexplore.ieee.org/iel7/6287639/8948470/09069943.pdf</a></li>
+					<li> <strong>DOI :</strong>  10.1109/ACCESS.2020.2988557 </li>
+					<br>
+					<div class="w3-center w3-hide-small w3-border"><img src="images/papers_figs/paper2.jpg" style="max-width:800px; max-height:250px;" > </img></div>
+				</ul> </li>
+				<li> Paper 3 :<ul>
+					<li> <strong>Title :</strong> A New Approach to Locate Software Vulnerabilities Using Code Metrics</li>
+					<li> <strong>Journal :</strong> </li>
+					<li> <strong>Authors :</strong> <strong>Mohammed Zagane </strong>, Mustapha Kamel Abdi and Mamdouh Alenezi</li>
+					<li> <strong>URL :</strong> <a href="https://www.igi-global.com/article/a-new-approach-to-locate-software-vulnerabilities-using-code-metrics/256238" target="_blank">https://www.igi-global.com/article/a-new-approach-to-locate-software-vulnerabilities-using-code-metrics/256238</a></li>
+					<li> <strong>DOI :</strong> 10.4018/IJSI.2020070106 </li>
+					<br>
+					<div class="w3-center w3-hide-small w3-border"><img src="images/papers_figs/paper3.jpg" style="max-width:680px; max-height:250px;" > </img></div>
+				</ul> </li>
+				<li> Paper 4 :<ul>
+					<li> <strong>Title :</strong> Évaluation des Metriques de Couplage en Tant Qu’indicateurs de Vulnérabilités dans les Applications Web</li>
+					<li> <strong>Journal :</strong> Communication Science et Technologie (COST)</li>
+					<li> <strong>Authors :</strong> <strong>Mohammed Zagane </strong> and Mustapha Kamel Abdi </li>
+					<li> <strong>DOI/URL :</strong> <a href="https://asjp.cerist.dz/en/article/150783" target="_blank"> https://asjp.cerist.dz/en/article/150783 </a></li>
+				</ul> </li>
+				<li> Tools :<ul>
+					<li> <strong>Title :</strong> ZM Source Code Metrics</li>
+					<li> <strong>URL :</strong> 
+					<br>
+					CLI Version (Written in C++)
+					<a href="https://github.com/mzagane/ZM_Source_Code_Metrics" target="_blank"> https://github.com/mzagane/ZM_Source_Code_Metrics</a> 
+					<br>
+					GUI Version (written in Java):
+					<a href="https://github.com/mzagane/ZM_J_Code_Metrics" target="_blank"> https://github.com/mzagane/ZM_J_Code_Metrics</a>
+					</li>
+				</ul> </li>
+				
+				<li> Datasets:<ul>
+					<li> <strong>Title :</strong> Slice-based Code Metrics Dataset</li>
+					<li> <strong>URL :</strong> 
+					<br>
+					Version 1 (published with Paper 3) :
+					<a href="https://github.com/mzagane/CMDataset" target="_blank"> https://github.com/mzagane/CMDataset</a> 
+					<br>
+					Version 1 (published with Paper 2) :
+					<a href="https://github.com/mzagane/slice-based_code_metrics_dataset" target="_blank"> https://github.com/mzagane/slice-based_code_metrics_dataset</a>
+					</li>
+				</ul> </li>
+			</ol>
+
+		</div>
+		<!-- END Doctoral studies ------------------------------------->
+		
+		<br>
+		<br>
+		
+		<!-- Post-Doctoral research (HDR Preparation) ------------------------------------->
+		<div class="w3-container w3-content w3-padding-16 mybackground" style="max-width:800px">
+			
+			<h3 class="w3-wide w3-center">Post-Doctoral research (HDR Preparation)</h3>
+			<p class="">Following my doctoral studies, I sought to address the limitations of software metric-based approaches, which are specific to the domain of software engineering. To this end, I drew inspiration from the field of Natural Language Processing (NLP), where traditional and deep learning techniques have yielded impressive results. This inspiration was motivated by the similarities between software source code and natural language: both exhibit syntactic and semantic characteristics, as well as a defined vocabulary. In collaboration with Saudi researchers, I proposed a novel approach [Paper 5] that leverages Word Embeddings, a widely used technique in NLP, for vulnerability prediction. Moreover, in the primary article of my HDR [Paper 6], I introduced another approach inspired by NLP that employs Term Frequency-Inverse Document Frequency (TF-IDF), a common technique in both NLP and information retrieval. This approach enables the automatic extraction of relevant attributes and the construction of effective vulnerability prediction models. To demonstrate the efficacy of this proposed approach, I conducted comparative studies with traditional software metrics and found that the automatically extracted attributes significantly outperformed these metrics."</p>
+			<p class="">
+			These works have led to the following publications and Datasets :
+			</p>
+   
+			<ol class="w3-ul w3-border w3-card-4 w3-justify w3-white">
+				<li> Paper 5 :<ul>
+					<li> <strong>Title :</strong> Efficient Deep Features Learning for Vulnerability Detection Using Character N-Gram Embedding</li>
+					<li> <strong>Journal :</strong> Jordanian Journal of Computers and Information Technology (JJCIT) </li>
+					<li> <strong>Authors :</strong> Mamdouh Alenezi and <strong>Mohammed Zagane </strong></li>
+					<li"> <strong>URL :</strong> <a href="https://www.jjcit.org/paper/120/EFFICIENT-DEEP-FEATURES-LEARNING-FOR-VULNERABILITY-DETECTION-USING-CHARACTER-N--GRAM-EMBEDDING" target="_blank"> https://www.jjcit.org/paper/120/EFFICIENT-DEEP-FEATURES-... </a> </li>
+					<li> <strong>DOI :</strong> 10.5455/jjcit.71-1597824949 </li>
+					<br>
+					<div class="w3-center w3-hide-small w3-border"><img src="images/papers_figs/paper5.jpg" style="max-width:600px; max-height:250px;" > </img></div>
+				</ul></li>
+				<li> Paper 6 :<ul>
+					<li> <strong>Title :</strong>  Hybrid Representation to Locate Vulnerable Lines of Code </li>
+					<li> <strong>Journal :</strong> International Journal of Software Innovation (IJSI)</li>
+					<li> <strong>Authors :</strong> <strong>Mohammed Zagane </strong>, Mustapha Kamel Abdi and Mamdouh Alenezi</li>
+					<li> <strong>URL :</strong> <a href="https://www.igi-global.com/article/hybrid-representation-to-locate-vulnerable-lines-of-code/292020" target="_blank">https://www.igi-global.com/article/hybrid-representation-to-locate-vulnerable-lines-of-code/292020 </a></li>
+					<li> <strong>DOI :</strong> 10.4018/IJSI.292020 </li>
+					
+					<br>
+					<div class="w3-center w3-hide-small w3-border"><img src="images/papers_figs/paper6.jpg" style="max-width:800px; max-height:250px;" > </img></div>
+				</ul> </li>
+				<li> Conference Paper 1 :<ul>
+					<li> <strong>Title :</strong> Automatic Feature Extraction Method for Software Vulnerability Prediction</li>
+					<li> <strong>Conference :</strong>  1st National Conference on Applied Computing and Smart Technologies, SBA, Algeria</li>
+					<li> <strong>Authors :</strong> <strong>Mohammed Zagane </strong>, Mustapha Kamel Abdi and Mamdouh Alenezi</li>
+					
+				</ul> </li>
+				<li> Conference Paper 2 :<ul>
+					<li> <strong>Title :</strong> Apprentissage Profond pour la Détection du Code Source Vulnérable : Approche inspirée du domaine de TLN</li>
+					<li> <strong>Conference :</strong> Mathématiques et Informatique Appliquée aux Sciences, MIAS’2022, Université de Tamanghasset, Algeria</li>
+					<li> <strong>Authors :</strong> <strong>Mohammed Zagane </strong> and AbdErrahim Zagane </li>
+					
+				</ul> </li>
+				<li> Datasets and Tools :<ul>
+					<li> <strong>Title :</strong> ZM Source Code Metrics</li>
+					<li> <strong>URL :</strong> 
+					CLI Version (Written in C++)
+					<a href="https://github.com/mzagane/ZM_Source_Code_Metrics" target="_blank"> https://github.com/mzagane/ZM_Source_Code_Metrics</a> 
+					<br>
+					GUI Version (written in Java):
+					<a href="https://github.com/mzagane/ZM_J_Code_Metrics" target="_blank"> https://github.com/mzagane/ZM_J_Code_Metrics</a>
+					</li>
+				</ul> </li>
+			</ol>
+
+		</div>
+		<!-- END Post-Doctoral research (HDR Preparation) ------------------------------------->
+		
+		
+		<br>
+		<br>
+		
+	</div>
+	<br>
+  
+</div>
+<!-- END Page Content ------------------------------------------------------------------------------------------------->
+
+
+<!-- Footer ----------------------------------------------------------------------------------------------------------->
+<footer class="w3-container w3-padding-64 w3-center w3-gray w3-opacity w3-large">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+<!-- END Footer ----------------------------------------------------------------------------------------------------------->
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
+
+

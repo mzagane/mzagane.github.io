@@ -1,284 +1,236 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Website of Mohammed ZAGANE</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-body {
-font-family: "Lato", sans-serif;
-/*background-image: url("images/background.jpg");
-background-color: #cccccc;*/
-}
-
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammed ZAGANE | Associate Professor & Researcher</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
-<body class="">
+<body>
+    <nav>
+        <a href="#" class="logo">M. ZAGANE</a>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#research">Research</a></li>
+            <li><a href="#teaching">Teaching</a></li>
+            <li><a href="#publications">Publications</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-<!-- Navbar ----------------------------------------------------------------------------------------------->
-<div class="w3-top">
-  <div class="w3-bar w3-blue-gray w3-card">
-    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
-    	
-	<div class="w3-dropdown-hover w3-hide-small">
-		<button class="w3-padding-large w3-button" title="More">Professional <i class="fa fa-caret-down"></i></button>
-		<!--<a href="#committees" class="w3-bar-item w3-button w3-padding-large w3-hide-small">COMMITTEES</a>-->
-		<div class="w3-dropdown-content w3-bar-block w3-card-4">
-			<a href="teaching.html" class="w3-bar-item w3-button">Teaching</a>
-			<a href="research.html" class="w3-bar-item w3-button">Research</a>
-			<a href="CV_Mohammed_ZAGANE_07-11-2024.pdf" target="_blank" class="w3-bar-item w3-button">CV</a>
-			
-		</div>
-	</div>
-	
-	<div class="w3-dropdown-hover w3-hide-small">
-		<button class="w3-padding-large w3-button" title="More">Personal <i class="fa fa-caret-down"></i></button>
-		<!--<a href="#committees" class="w3-bar-item w3-button w3-padding-large w3-hide-small">COMMITTEES</a>-->
-		<div class="w3-dropdown-content w3-bar-block w3-card-4">
-			<a href="album.html" class="w3-bar-item w3-button">Album</a>			
-		</div>
-	</div>
-	
-	<div class="w3-dropdown-hover w3-hide-small">
-      <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
-      <div class="w3-dropdown-content w3-bar-block w3-card-4">
-		<a href="contact.html" class="w3-bar-item w3-button">Contact me</a>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- END Navbar ----------------------------------------------------------------------------------------------->
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1>Mohammed ZAGANE</h1>
+            <p>Associate Professor & Researcher in Software Security and Machine Learning</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/zagane/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/mzagane" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://scholar.google.com/citations?user=auRkkm8AAAAJ" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+                <a href="https://www.researchgate.net/profile/Mohammed-Zagane" target="_blank" title="ResearchGate"><i class="fab fa-researchgate"></i></a>
+                <a href="https://x.com/mzagane" target="_blank" title="X (Twitter)"><i class="fab fa-x-twitter"></i></a>
+            </div>
+            <a href="#about" class="cta-button">Learn More</a>
+        </div>
+    </header>
 
-<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
-<div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-  <a href="teaching.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Teaching</a>
-  <a href="research.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Research</a>
-  <a href="CV_Mohammed_ZAGANE_07-11-2024.pdf" target="_blank" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CV</a>
-  <a href="album.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Album</a>
-  <a href="contact.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Contact me</a>
-  
-</div>
+    <section id="about" class="reveal">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-container">
+            <div class="about-text">
+                <p>I am an Associate Professor and Researcher at the University of Mustapha Stambouli in Mascara, Algeria. My work is dedicated to solving complex problems in Software Engineering and Information Security by leveraging the power of Machine Learning and Deep Learning.</p>
+                <p>With a PhD in Computer Science and extensive experience in both academia and systems engineering, I focus on developing innovative, automated solutions for software vulnerability prediction and maintenance.</p>
+            </div>
+            <div class="education-box">
+                <h3>Education</h3>
+                <ul>
+                    <li><strong>PhD in Computer Science</strong> (2020) <br> University of Oran 1, Algeria</li>
+                    <li><strong>Magister in Computer Sciences</strong> (2010) <br> Higher National School of Computer Sciences (ESI), Algiers</li>
+                    <li><strong>Computer Engineer</strong> (2007) <br> University of Mustapha Stambouli, Mascara</li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
-<!-- END Navbar on small screens ----------------------------------------------------------------------------------->
+    <section id="experience" class="reveal" style="background: #fff;">
+        <h2 class="section-title">Professional Experience</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-date">2021 - Present</div>
+                <div class="timeline-content">
+                    <h3>Associate Professor / Researcher</h3>
+                    <p>University of Mustapha Stambouli, Mascara, Algeria</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2024 - Present</div>
+                <div class="timeline-content">
+                    <h3>Research Team Head</h3>
+                    <p>Labtec-Ia Laboratory, AIIS Team</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2023 - 2024</div>
+                <div class="timeline-content">
+                    <h3>Assistant Head of Department</h3>
+                    <p>Department of Mathematics, University of Mustapha Stambouli</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2012 - 2021</div>
+                <div class="timeline-content">
+                    <h3>Assistant Professor / Researcher</h3>
+                    <p>University of Mustapha Stambouli, Mascara, Algeria</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2009 - 2012</div>
+                <div class="timeline-content">
+                    <h3>Systems Engineer</h3>
+                    <p>Local Government Services, State of Mascara</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<!-- Page content -------------------------------------------------------------------------------------------------->
-<div class="w3-content " style="max-width:2000px;margin-top:46px">
+    <section id="research" class="reveal">
+        <h2 class="section-title">Research Interests</h2>
+        <div class="card-container">
+            <div class="card">
+                <i class="fas fa-shield-alt card-icon"></i>
+                <h3>Vulnerability Prediction</h3>
+                <p>Using code metrics and deep learning to identify security flaws at a fine-grained level, assisting developers in securing software systems.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-code card-icon"></i>
+                <h3>NLP for Code</h3>
+                <p>Applying NLP techniques like Word Embeddings and TF-IDF to extract semantic insights from source code for improved analysis.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-sync card-icon"></i>
+                <h3>Software Evolution</h3>
+                <p>Developing hybrid models to predict software co-changes and improve system reliability during maintenance.</p>
+            </div>
+        </div>
+    </section>
 
-  <!-- Automatic Slideshow Images -->
-  
-  <!-- Slide1 -->
-  <div class="mySlides w3-display-container w3-center w3-hide-small">
-    <img src="images/slides/zm1.jpg" style="width:100%;min-height:200px;max-height:600px;" class="w3-opacity-max">
-    <div class="w3-display-topmiddle w3-container w3-text-white w3-padding-8">
-		<h1 class="w3-jumbo w3-animate-right ">Welcome to my Website!</h1>
-		<hr class="w3-border-grey" style="margin:auto;width:40%">
-		<p class="w3-large "></p>
-		
-    </div>
-	
-	<div class="w3-display-topleft w3-container w3-light-blue w3-padding-32 w3-round-large w3-margin-top w3-margin-left w3-mobile">
-		
-		<a href="https://web.facebook.com/profile.php?id=61562389977654" target="_blank"><i class="fa fa-facebook-official w3-hover-red w3-xxxlarge"></i></a>
-		<br>
-		<br>
-		<a href="https://www.linkedin.com/in/zagane/" target="_blank"><i class="fa fa-linkedin w3-hover-red w3-xxxlarge"></i></a>
-		<br>
-		<br>
-		<a href="https://github.com/mzagane" target="_blank"><i class="fa fa-github w3-hover-red w3-xxxlarge"></i></a>
-		<br>
-		<br>
-		<a href="https://x.com/mzagane" target="_blank"> <i class="fa fa-twitter w3-hover-red w3-xxxlarge"></i></a>
-		<br>
-		<br>
-		<a href="https://scholar.google.com/citations?user=auRkkm8AAAAJ" target="_blank"> <i class="fa fa-graduation-cap w3-hover-red w3-xxxlarge"></i></a>
-		<br>
-		<br>
-		<a href="https://www.univ-mascara.dz/Staff/page_perso.php?q3=414" target="_blank"> <i class="fa fa-institution w3-hover-red w3-xxxlarge"></i></a>
-		<br>
-		<br>
-		<a href="https://www.researchgate.net/profile/Mohammed-Zagane" target="_blank"> <i class="fa fa-registered w3-hover w3-xxxlarge"></i></a>
+    <section id="teaching" class="reveal" style="background: #fff;">
+        <h2 class="section-title">Teaching Portfolio</h2>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Course Title</th>
+                        <th>Level</th>
+                        <th>Years</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Advanced Web Programming</td><td>1st Year Master (WIST)</td><td>2018 - 2023</td></tr>
+                    <tr><td>Algorithmics and Data Structures 1 & 2</td><td>1st & 2nd Year Licence</td><td>2012 - 2025</td></tr>
+                    <tr><td>Electronic and Components of Computer Systems</td><td>1st Year Licence</td><td>2014 - 2024</td></tr>
+                    <tr><td>Web Applications Development</td><td>2nd Year Licence</td><td>2014 - 2016</td></tr>
+                    <tr><td>Machine Structure</td><td>1st Year Licence</td><td>2016 - 2022</td></tr>
+                    <tr><td>Advanced Web</td><td>2nd Year Master (CSE)</td><td>2018 - 2019</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
 
-    </div>
-	
-  </div>
-  <!-- End Slide1 -->
-  
-  <!-- Slide2 -->
-  <div class="mySlides w3-display-container w3-center w3-hide-small">
-    <img src="images/slides/zm1.jpg" style="width:100%;min-height:200px;max-height:600px;" class="w3-opacity-max ">
-    <div class="w3-display-topmiddle w3-container w3-text-white w3-padding-8">
-		<h1 class="w3-xxxlarge w3-animate-right ">Learn more about my personal and professional life here..</h1>
-		<hr class="w3-border-grey" style="margin:auto;width:40%">
-		<p class="w3-large "></p>
-		
-    </div>
-	
-	<div class="w3-display-topleft w3-container w3-light-blue w3-padding-32 w3-round-large w3-margin-top w3-margin-left w3-mobile">
-		
-		<a href="https://web.facebook.com/profile.php?id=61562389977654" target="_blank"><i class="fa fa-facebook-official w3-hover-red w3-xxxlarge"></i></a>
-		<br>
-		<br>
-		<a href="https://www.linkedin.com/in/zagane/" target="_blank"><i class="fa fa-linkedin w3-hover-red w3-xxxlarge"></i></a>
-		<br>
-		<br>
-		<a href="https://github.com/mzagane" target="_blank"><i class="fa fa-github w3-hover-red w3-xxxlarge"></i></a>
-		<br>
-		<br>
-		<a href="https://x.com/mzagane" target="_blank"> <i class="fa fa-twitter w3-hover-red w3-xxxlarge"></i></a>
-		<br>
-		<br>
-		<a href="https://scholar.google.com/citations?user=auRkkm8AAAAJ" target="_blank"> <i class="fa fa-graduation-cap w3-hover-red w3-xxxlarge"></i></a>
-		<br>
-		<br>
-		<a href="https://www.univ-mascara.dz/Staff/page_perso.php?q3=414" target="_blank"> <i class="fa fa-institution w3-hover-red w3-xxxlarge"></i></a>
-		<br>
-		<br>
-		<a href="https://www.researchgate.net/profile/Mohammed-Zagane" target="_blank"> <i class="fa fa-registered w3-hover w3-xxxlarge"></i></a>
+    <section id="publications" class="reveal">
+        <h2 class="section-title">Selected Publications</h2>
+        <div class="pub-info-box" style="text-align: center; margin-bottom: 2rem; font-size: 1.1rem;">
+            <p>To see the full list of my publications, please visit my <a href="https://www.researchgate.net/profile/Mohammed-Zagane" target="_blank" style="color: var(--accent-color); font-weight: 600; text-decoration: none;">ResearchGate profile <i class="fab fa-researchgate"></i></a>.</p>
+        </div>
+        <div class="pub-list">
+            <div class="pub-item">
+                <span class="pub-year">2024</span>
+                <div class="pub-details">
+                    <h4>Enhancing Software Co-Change Prediction: Leveraging Hybrid Approaches for Improved Accuracy</h4>
+                    <p>Zagane, M., Alenezi, M. | <strong>IEEE Access</strong></p>
+                    <a href="https://ieeexplore.ieee.org/abstract/document/10526245" target="_blank">View Paper <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="pub-item">
+                <span class="pub-year">2022</span>
+                <div class="pub-details">
+                    <h4>Hybrid Representation to Locate Vulnerable Lines of Code</h4>
+                    <p>Zagane, M., Alenezi, M., & Abdi, M. K. | <strong>International Journal of Software Innovation</strong></p>
+                    <a href="https://www.igi-global.com/article/hybrid-representation-to-locate-vulnerable-lines-of-code/292020" target="_blank">View Paper <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="pub-item">
+                <span class="pub-year">2020</span>
+                <div class="pub-details">
+                    <h4>Deep Learning for Software Vulnerabilities Detection Using Code Metrics</h4>
+                    <p>Zagane, M., Abdi, M. K. and Mamdouh Alenezi | <strong>IEEE Access</strong></p>
+                    <a href="https://ieeexplore.ieee.org/iel7/6287639/8948470/09069943.pdf" target="_blank">View Paper <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="resources-grid">
+            <div class="resource-card">
+                <h3>Datasets & Tools</h3>
+                <p style="margin-bottom: 1.5rem; opacity: 0.9;">To see more of my academic and personal software projects, please visit my <a href="https://github.com/mzagane" target="_blank" style="color: #fff; font-weight: 600; text-decoration: underline;">GitHub profile <i class="fab fa-github"></i></a>.</p>
+                <ul>
+                    <li><a href="https://github.com/mzagane/ZM_Source_Code_Metrics" target="_blank">ZM Source Code Metrics (CLI/GUI)</a></li>
+                    <li><a href="https://github.com/mzagane/CMDataset" target="_blank">Slice-based Code Metrics Dataset</a></li>
+                    <li><a href="https://github.com/dzresearcher/char_n-gram_embedding_dataset_for_DL_AVP" target="_blank">Char N-gram Embedding Dataset</a></li>
+                    <li><a href="https://github.com/researcherdz29/TF-IDF-Based-Features" target="_blank">TF-IDF-Based AVP Dataset</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
-    </div>
-  </div>
-  <!-- End Slide2 -->
-  
- <!-- Slide3 -->
- <div class="mySlides w3-display-container w3-center w3-hide-small">
-    <img src="images/slides/zm1.jpg" style="width:100%;min-height:200px;max-height:600px;" class="w3-opacity-max">
-    <div class="w3-display-topmiddle w3-container w3-text-white w3-padding-8">
-		<h1 class="w3-xxxlarge w3-animate-right ">Simply use the top menu to navigate...</h1>
-		<hr class="w3-border-grey" style="margin:auto;width:40%">
-		<p class="w3-large "></p>
-		
-    </div>
-	<div class="w3-display-topleft w3-container w3-light-blue w3-padding-32 w3-round-large w3-margin-top w3-margin-left w3-mobile">
-		
-		<a href="https://web.facebook.com/profile.php?id=61562389977654" target="_blank"><i class="fa fa-facebook-official w3-hover-red w3-xxxlarge"></i></a>
-		<br>
-		<br>
-		<a href="https://www.linkedin.com/in/zagane/" target="_blank"><i class="fa fa-linkedin w3-hover-red w3-xxxlarge"></i></a>
-		<br>
-		<br>
-		<a href="https://github.com/mzagane" target="_blank"><i class="fa fa-github w3-hover-red w3-xxxlarge"></i></a>
-		<br>
-		<br>
-		<a href="https://x.com/mzagane" target="_blank"> <i class="fa fa-twitter w3-hover-red w3-xxxlarge"></i></a>
-		<br>
-		<br>
-		<a href="https://scholar.google.com/citations?user=auRkkm8AAAAJ" target="_blank"> <i class="fa fa-graduation-cap w3-hover-red w3-xxxlarge"></i></a>
-		<br>
-		<br>
-		<a href="https://www.univ-mascara.dz/Staff/page_perso.php?q3=414" target="_blank"> <i class="fa fa-institution w3-hover-red w3-xxxlarge"></i></a>
-		<br>
-		<br>
-		<a href="https://www.researchgate.net/profile/Mohammed-Zagane" target="_blank"> <i class="fa fa-registered w3-hover w3-xxxlarge"></i></a>
+    <section id="contact" class="reveal" style="background: #fff;">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-grid">
+            <div class="contact-info">
+                <p><i class="fas fa-envelope"></i> <strong>Professional:</strong> m_zagane@univ-mascara.dz</p>
+                <p><i class="fas fa-envelope"></i> <strong>Personal:</strong> mzagane@gmail.com</p>
+                <p><i class="fas fa-phone"></i> +213.05.59.07.77.51</p>
+                <p><i class="fas fa-map-marker-alt"></i> University of Mascara, Algeria</p>
+            </div>
+            <div class="skills-box">
+                <h3>Technical Skills</h3>
+                <p>C/C++, Java, PHP, JavaScript, Python, MATLAB, MySQL, Linux</p>
+                <h3 style="margin-top: 1rem;">Languages</h3>
+                <p>Arabic (Native), French (Good), English (Good)</p>
+            </div>
+        </div>
+    </section>
 
-    </div>
-  </div>
-<!-- End Slide3 -->  
+    <footer>
+        <p>&copy; 2026 Mohammed ZAGANE. All rights reserved.</p>
+    </footer>
 
-<!-- Slide4 -->
- <div class="mySlides w3-display-container w3-center w3-hide-small">
-    <img src="images/slides/zm1.jpg" style="width:100%;min-height:200px;max-height:600px;" class="w3-opacity-max">
-    <div class="w3-display-topmiddle w3-container w3-text-white w3-padding-8">
-		<h1 class="w3-xxxlarge w3-animate-right ">Thank you and enjoy your visit!</h1>
-		<hr class="w3-border-grey" style="margin:auto;width:40%">
-		<p class="w3-large "></p>
-		
-    </div>
-	<div class="w3-display-topleft w3-container w3-light-blue w3-padding-32 w3-round-large w3-margin-top w3-margin-left w3-mobile">
-		
-		<a href="https://web.facebook.com/profile.php?id=61562389977654" target="_blank"><i class="fa fa-facebook-official w3-hover-red w3-xxxlarge"></i></a>
-		<br>
-		<br>
-		<a href="https://www.linkedin.com/in/zagane/" target="_blank"><i class="fa fa-linkedin w3-hover-red w3-xxxlarge"></i></a>
-		<br>
-		<br>
-		<a href="https://github.com/mzagane" target="_blank"><i class="fa fa-github w3-hover-red w3-xxxlarge"></i></a>
-		<br>
-		<br>
-		<a href="https://x.com/mzagane" target="_blank"> <i class="fa fa-twitter w3-hover-red w3-xxxlarge"></i></a>
-		<br>
-		<br>
-		<a href="https://scholar.google.com/citations?user=auRkkm8AAAAJ" target="_blank"> <i class="fa fa-graduation-cap w3-hover-red w3-xxxlarge"></i></a>
-		<br>
-		<br>
-		<a href="https://www.univ-mascara.dz/Staff/page_perso.php?q3=414" target="_blank"> <i class="fa fa-institution w3-hover-red w3-xxxlarge"></i></a>
-		<br>
-		<br>
-		<a href="https://www.researchgate.net/profile/Mohammed-Zagane" target="_blank"> <i class="fa fa-registered w3-hover w3-xxxlarge"></i></a>
+    <script>
+        function reveal() {
+            var reveals = document.querySelectorAll(".reveal");
+            for (var i = 0; i < reveals.length; i++) {
+                var windowHeight = window.innerHeight;
+                var elementTop = reveals[i].getBoundingClientRect().top;
+                var elementVisible = 100;
+                if (elementTop < windowHeight - elementVisible) {
+                    reveals[i].classList.add("active");
+                }
+            }
+        }
+        window.addEventListener("scroll", reveal);
+        reveal();
 
-    </div>
-  </div>
-<!-- End Slide4 -->  
-
-
-<div class="w3-container w3-content w3-justify  w3-card  w3-animate-right w3-border w3-round-large w3-light-gray" style="max-width:1200px" id="contact">
-		
-		<p class=" w3-animate-right w3-small">Welcome to my Website!</p>
-		
-		<p class=" w3-animate-right w3-small">Learn more about my personal and professional life here..</p>
-		
-		<p class="w3-animate-right w3-small">Simply use the menu to navigate...</p>
-		
-		<p class="w3-animate-right w3-small">Thank you and enjoy your visit!</p>
-			
-</div>
-<!-- End Page Content -->
-
-<!-- Image of location/map 
-<img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
--->
-<!-- Footer -->
-<footer class="w3-container w3-padding-64 w3-center w3-blue-gray w3-xlarge">
-
- <p class="w3-small">Find me in social networks : </p>
-		<a href="https://web.facebook.com/profile.php?id=61562389977654" target="_blank"><i class="fa fa-facebook-official w3-hover-red "></i></a>
-		<a href="https://www.linkedin.com/in/zagane/" target="_blank"><i class="fa fa-linkedin w3-hover-red "></i></a>
-		<a href="https://github.com/mzagane" target="_blank"><i class="fa fa-github w3-hover-red "></i></a>
-		<a href="https://x.com/mzagane" target="_blank"> <i class="fa fa-twitter w3-hover-red "></i></a>
-		<a href="https://scholar.google.com/citations?user=auRkkm8AAAAJ" target="_blank"> <i class="fa fa-graduation-cap w3-hover-red "></i></a>
-		<a href="https://www.univ-mascara.dz/Staff/page_perso.php?q3=414" target="_blank"> <i class="fa fa-institution w3-hover-red "></i></a>
-		<a href="https://www.researchgate.net/profile/Mohammed-Zagane" target="_blank"> <i class="fa fa-registered w3-hover "></i></a>
-  <p class="w3-small">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
-</footer>
-
-<script>
-// Automatic Slideshow - change image every 4 seconds
-var myIndex = 0;
-carousel();
-
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  myIndex++;
-  if (myIndex > x.length) {myIndex = 1}    
-  x[myIndex-1].style.display = "block";  
-  setTimeout(carousel, 4000);    
-}
-
-// Used to toggle the menu on small screens when clicking on the menu button
-function myFunction() {
-  var x = document.getElementById("navDemo");
-  if (x.className.indexOf("w3-show") == -1) {
-    x.className += " w3-show";
-  } else { 
-    x.className = x.className.replace(" w3-show", "");
-  }
-}
-
-// When the user clicks anywhere outside of the modal, close it
-var modal = document.getElementById('ticketModal');
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
-</script>
-
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
 </body>
 </html>

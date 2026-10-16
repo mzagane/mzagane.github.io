@@ -1,0 +1,110 @@
+[
+  {
+    "year": 2026,
+    "type": "Conference",
+    "topic": "Security",
+    "title": "Semantic Sink Discovery for Rule-Based SAST Using Code and Documentation Embeddings",
+    "authors": "Mohammed Zagane, Rachid Khalladi, AbdAllah Khelil, Brahim Khaldi",
+    "venue": "The First National Conference on Artificial Intelligence: Research Innovation & Systems",
+    "url": "https://www.univ-mascara.dz/nc-airis26/"
+  },
+  {
+    "year": 2026,
+    "type": "Journal",
+    "topic": "Security",
+    "title": "Security-Oriented Code Metrics for Machine Learning–Based Vulnerability Prediction in Source Code",
+    "authors": "Mohammed Zagane",
+    "venue": "ITEGAM-JETIA · 12(59), 393–400",
+    "doi": "10.5935/jetia.v12i59.3464"
+  },
+  {
+    "year": 2026,
+    "type": "Journal",
+    "topic": "Software engineering",
+    "title": "Deep Semantic Embeddings for Scalable Co-Change Recommendation in Software Systems",
+    "authors": "Mohammed Zagane, Ahmad Taher Azar, Walid El-Shafai",
+    "venue": "IEEE Access · 14, 14331–14340",
+    "doi": "10.1109/ACCESS.2026.3656097"
+  },
+  {
+    "year": 2024,
+    "type": "Journal",
+    "topic": "Software engineering",
+    "title": "Enhancing Software Co-Change Prediction: Leveraging Hybrid Approaches for Improved Accuracy",
+    "authors": "Mohammed Zagane, Mamdouh Alenezi",
+    "venue": "IEEE Access",
+    "doi": "10.1109/ACCESS.2024.3399101"
+  },
+  {
+    "year": 2022,
+    "type": "Journal",
+    "topic": "Security",
+    "title": "Hybrid Representation to Locate Vulnerable Lines of Code",
+    "authors": "Mohammed Zagane, Mustapha Kamel Abdi, Mamdouh Alenezi",
+    "venue": "International Journal of Software Innovation",
+    "doi": "10.4018/IJSI.292020"
+  },
+  {
+    "year": 2022,
+    "type": "Conference",
+    "topic": "Security",
+    "title": "Apprentissage Profond pour la Détection du Code Source Vulnérable : Approche inspirée du domaine de TLN",
+    "authors": "Mohammed Zagane, Abderrahim Zagane",
+    "venue": "MIAS 2022 · Université de Tamanghasset, Algeria",
+    "url": "https://www.researchgate.net/profile/Mohammed-Zagane"
+  },
+  {
+    "year": 2021,
+    "type": "Journal",
+    "topic": "Security",
+    "title": "Efficient Deep Features Learning for Vulnerability Detection Using Character N-Gram Embedding",
+    "authors": "Mamdouh Alenezi, Mohammed Zagane, Yasir Javed",
+    "venue": "Jordanian Journal of Computers and Information Technology · 7(1)",
+    "doi": "10.5455/jjcit.71-1597824949"
+  },
+  {
+    "year": 2021,
+    "type": "Conference",
+    "topic": "Security",
+    "title": "Automatic Feature Extraction Method for Software Vulnerability Prediction",
+    "authors": "Mohammed Zagane, Mustapha Kamel Abdi, Mamdouh Alenezi",
+    "venue": "1st National Conference on Applied Computing and Smart Technologies · Sidi Bel Abbès, Algeria",
+    "url": "https://www.researchgate.net/profile/Mohammed-Zagane"
+  },
+  {
+    "year": 2020,
+    "type": "Journal",
+    "topic": "Security",
+    "title": "Deep Learning for Software Vulnerabilities Detection Using Code Metrics",
+    "authors": "Mohammed Zagane, Mustapha Kamel Abdi, Mamdouh Alenezi",
+    "venue": "IEEE Access · 8, 74562–74570",
+    "doi": "10.1109/ACCESS.2020.2988557"
+  },
+  {
+    "year": 2020,
+    "type": "Journal",
+    "topic": "Security",
+    "title": "A New Approach to Locate Software Vulnerabilities Using Code Metrics",
+    "authors": "Mohammed Zagane, Mustapha Kamel Abdi, Mamdouh Alenezi",
+    "venue": "International Journal of Software Innovation · 8(3)",
+    "doi": "10.4018/IJSI.2020070106"
+  },
+  {
+    "year": 2019,
+    "type": "Journal",
+    "topic": "Security",
+    "title": "Evaluating and Comparing Size, Complexity and Coupling Metrics as Web Applications Vulnerabilities Predictors",
+    "authors": "Mohammed Zagane, Mustapha Kamel Abdi",
+    "venue": "International Journal of Information Technology and Computer Science · 11(7)",
+    "doi": "10.5815/ijitcs.2019.07.05"
+  },
+  {
+    "year": null,
+    "type": "Journal",
+    "topic": "Security",
+    "title": "Évaluation des Métriques de Couplage en Tant Qu’indicateurs de Vulnérabilités dans les Applications Web",
+    "authors": "Mohammed Zagane, Mustapha Kamel Abdi",
+    "venue": "Communication Science et Technologie (COST)",
+    "url": "https://asjp.cerist.dz/en/article/150783"
+  }
+]
